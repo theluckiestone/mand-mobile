@@ -4,7 +4,8 @@
   </div>
 </template>
 
-<script>import {ActionBar, Toast} from 'mand-mobile'
+<script>
+import {ActionBar, Toast} from 'mand-mobile'
 
 export default {
   name: 'action-bar-demo',
@@ -33,8 +34,9 @@ export default {
   },
   methods: {
     handleClick() {
-      Toast.succeed('Click')
+      Toast.succeed('Clickssssds')
     },
   },
 }
-</script>
+
+</script>
